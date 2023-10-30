@@ -1,0 +1,11 @@
+{
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingDelete": "never",
+  "editor.autoClosingOvertype": "never",
+  "editor.autoIndent": "none",
+  "editor.autoSurround": "never",
+  "editor.matchBrackets": "never",
+  "prettier.bracketSpacing": false,
+  "vue.autoInsert.bracketSpacing": false
+}
