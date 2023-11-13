@@ -172,12 +172,12 @@ document.addEventListener("DOMContentLoaded", () => {
       if (isAtRight()) {
         //use actual position to check if it's flipped over to right side
         currentPosition += 1 //if so, add one to wrap it back around
-        checkRotatedPosition(P) //check again.  Pass position from start, since long block might need to move more.
+        checkRotatedPosition(P + 1) //check again.  Pass position from start, since long block might need to move more.
       }
     } else if (P % width > 5) {
       if (isAtLeft()) {
         currentPosition -= 1
-        checkRotatedPosition(P)
+        checkRotatedPosition(P - 1)
       }
     }
   }
